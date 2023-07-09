@@ -28,7 +28,7 @@ jobs:
           # context: .
           # platforms: linux/arm64/v8
           push: true
-          tags: kial1Ekb/habit_tracker:latest
+          tags: kial1/habit_tracker:latest
           # cache-from: type=registry,ref=${{ secrets.DOCKER_USERNAME }}/habit-tracker:buildcache
           # cache-to: type=registry,ref=${{ secrets.DOCKER_USERNAME }}/habit-tracker:buildcache,mode=max
 
